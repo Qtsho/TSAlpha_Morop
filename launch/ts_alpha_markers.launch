@@ -1,0 +1,10 @@
+<launch>
+	<node pkg="ts_alpha" type="markers_node" name="ts_alpha_sensor" output="screen">
+		<param name="dev" value="/dev/ttyUSB0" />
+		<param name="frame_id" value="ts_alpha" />
+		<param name="lifetime" value="1" />
+		<param name="volume_devider" value="2500.0" />
+		<param name="max_volume" value="200.0" />
+		<param name="volume_offset" value="50.0" />
+	</node>
+</launch>
